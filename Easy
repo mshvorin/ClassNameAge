@@ -1,0 +1,17 @@
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+class Boy(person):
+    pass
+
+class Girl(person):
+    pass
+
+
+David = Boy("David", 17)
+Jenna = Girl("Jenna", 18)
+
+print("Hi my name is " + Jenna.name + ",I just turned " + str(Jenna.age) + " years old!")
